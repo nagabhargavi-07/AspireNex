@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0; /* Light grey background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4b0082; /* Purple background for header */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li button {
+    background: none;
+    border: none;
+    color: #ffffff; /* White text color for buttons */
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav ul li button:hover {
+    background-color: #6a5acd; /* Darker purple on hover */
+}
+
+main {
+    margin-top: 70px; /* Space for fixed header */
+    padding: 20px;
+}
+
+.page {
+    display: none; /* Initially hide all pages */
+    text-align: center; /* Center-align content */
+}
+
+.page.active {
+    display: block; /* Show active page */
+}
+
+.content-center {
+    text-align: center;
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto; /* Center-align horizontally */
+}
+
+#home {
+    background-color: #4b0082; /* Purple background for home section */
+    color: #ffffff; /* White text color */
+    text-align: center;
+    padding: 50px 0;
+}
+
+#home h2 {
+    font-size: 36px;
+}
+
+#home p {
+    font-size: 24px;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+}
+
+.home-content .text {
+    flex: 1;
+    padding: 20px;
+}
+
+.home-content .image {
+    flex: 1;
+    text-align: center;
+}
+
+.home-content .image img {
+    max-width: 80%;
+    border-radius: 40%;
+}
